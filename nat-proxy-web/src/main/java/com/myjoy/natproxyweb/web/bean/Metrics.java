@@ -18,6 +18,10 @@ import java.io.Serializable;
 @ToString
 public class Metrics implements Serializable {
 
+    private long id;
+
+    private long userId;
+
     private int port;
 
     private long readBytes;
